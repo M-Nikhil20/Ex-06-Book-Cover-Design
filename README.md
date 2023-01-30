@@ -134,5 +134,6 @@ Add images and other contents using CSS record a screenshot of it.
 # Output:
 
 
+
 # RESULT:
 Hence the program to print the book cover is succesfully runned.
