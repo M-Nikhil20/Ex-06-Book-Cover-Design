@@ -21,114 +21,118 @@ Write down the code for book cover using HTML and CSS.
 Add images and other contents using CSS record a screenshot of it.
 
 # Code:
-<style>
-    .bookpage{
-        width: 400px;
-        height: 600px;
-        color:crimson;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 20px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        background-image: url(/static/images/back.jpg);
-        background-size: cover;
-    }
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+         <meta name="viewport" 
+         content="width=device-width, initial-scale=1.0">
+         <style>
+        .bookpage{
+            width: 420px;
+            height: 600px;
+            color:rgb(245, 76, 9);
+            margin-left: auto;
+            margin-right: auto;
+            padding: 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-image: url(/static/images/luff.jpg);
+            background-size: cover;
+        }
+            
+        .insight{
+            color: rgb(236, 240, 3);
+        }
         
-
-    .insight{
-        color: blue;
-
-    }
-
-    
-    .hrstyle{
-        width:100px;
-    }
-    .author{
-    
-        display: inline;
-        position: relative;
-        color: purple;
-        top:190px;
+        .hrstyle{
+            width:100px;
+        }
+        .author{
+            color: white;
+            display: inline;
+            position: relative;
+            color: rgb(3, 3, 3);
+            top:190px;
+            
+            font-family:Georgia;
+            font-size: medium;
+        }
+        .booktitle{
+            font-family: 'Courier New', Courier, monospace;
+            font-size: larger;
+            text-align: center;
+            position: relative;
+            top: 30px;
         
-        font-family:Georgia;
-        font-size: medium;
-    }
-    .booktitle{
-        font-family: 'Courier New', Courier, monospace;
-        font-size: larger;
-        text-align: center;
-        position: relative;
-        top: 30px;
-    
-    }
-    .id {
-        width:400px;
-        position: relative;
-        top:180px;
-        
-    }
-    .pub{
-        font-size: medium;
-        position: relative;
-        top:155px;
-        left:330px;
-    }
-    .ed{
-        color:orange;
-        font-size: medium;
-        font-family: Verdana;
-        position:relative;
-        top:85px;
+        }
+        .id {
+            width:400px;
+            position: relative;
+            top:180px;
+            
+        }
+        .pub{
+            font-size: medium;
+            position: relative;
+            top:155px;
+            left:330px;
+        }
+        .ed{
+            color:rgb(255, 115, 0);
+            font-size: medium;
+            font-family: Verdana;
+            position:relative;
+            top:85px;
+        }
+        .subtitle{
+            font-family:Tahoma;
+            font-size: large;
+            position: relative;
+            top:40px;
+        }
+        .mypic{
+            position: relative;
+            top: 135px;
+            left: 260px;
+            width: 100px;
+            height: 100px;
+            background-size: cover;
+        }
+        </style>
+        <title>COVER PAGE DESIGN</title>
+    </head>
+    <body>
+        <div class="bookpage">
+            <div class="insight">
+                SEC INSIGHT
+            </div>
+            <div class="hrstyle">
+                <hr style="color: rgb(0, 0, 0);">
+            </div>
+            <div class="booktitle" style="color: rgb(255, 64, 0);">
+                <h1>Fundamentals of Web Application Development</h1></div>
+            <div class="subtitle" style="color: rgb(247, 255, 6);"><b>
+                HTML and CSS Combined with Django Architecture</b>
+            </div>
+            <div class="mypic" >
+                <img src="/static/images/DSC_3162.jpg" width="60" height="100" alt="" style="vertical-align:bottom;margin:50px 55px">
+            </div>
+            <div class="id">
+                <hr style="color: rgb(255, 0, 0);">
+            </div>
+            <div class="author">
+               <p><b>A NIXAN DASS</b></p>
+            </div>
+            <div class="pub">
+                SEC
+            </div>
+            <div class="ed">
+                <b>Seventh Edition</b>
+            </div>
+            
+        </div>
+    </body>
+</html>
 
-    }
-    .subtitle{
-        font-family:Tahoma;
-        font-size: large;
-        position: relative;
-        top:40px;
-    }
-    .mypic{
-        position: relative;
-        top: 135px;
-        left: 260px;
-        width: 100px;
-        height: 100px;
-        background-size: cover;
-    }
-    </style>
-    <title>Book Cover Page</title>
-</head>
-<body>
-    <div class="bookpage">
-        <div class="insight">
-            SEC INSIGHT
-        </div>
-        <div class="hrstyle">
-            <hr style="color: red;">
-        </div>
-        <div class="booktitle">
-            <h1>Coding for beginners</h1></div>
-        <div class="subtitle">
-            C,C++,Python and more.
-        </div>
-        <div class="mypic">
-            <img src="/static/images/profile.JPG" width="130" height="145" alt="">
-        </div>
-        <div class="id">
-            <hr style="color: black;">
-        </div>
-        <div class="author">
-           <p><b>Ben Frain</b></p>
-        </div>
-        <div class="pub">
-            SEC
-        </div>
-        <div class="ed">
-            <b>Third Edition</b>
-        </div>
-    </div>
-</body>
 
 
 # Output:
